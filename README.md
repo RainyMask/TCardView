@@ -20,6 +20,19 @@ it, simply add the following line to your Podfile:
 pod 'TCardView'
 ```
 
+## Usage
+```
+TCardView *cardView = [[TCardView alloc] initWithFrame:CGRectMake(0, 60, kScreenWidth, kScreenHeight - 200)];
+cardView.isOpenAutoScroll = NO;
+cardView.isEditing = YES;
+cardView.imageArr = @[@"pic0", @"pic1", @"pic2", @"pic3", @"pic4"];
+[self.view addSubview:cardView];
+```
+
+## Screenshots
+![demo1](https://raw.githubusercontent.com/RainyMask/TCardView/master/Example/TCardView/demo1.png)
+![demo2](https://raw.githubusercontent.com/RainyMask/TCardView/master/Example/TCardView/demo2.png)
+
 ## Author
 
 1370254410@qq.com, daitao@chaorey.com
