@@ -1,0 +1,6 @@
+framework module Pods_TCardView_Example {
+  umbrella header "Pods-TCardView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4639ED01DB420E9742925FAA /* Pods_TCardView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80EA147430707CCE8E160B1F /* Pods_TCardView_Tests.framework */; };
+		2BA9DFF1227021A7003F746D /* demo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA9DFEF227021A7003F746D /* demo2.png */; };
+		2BA9DFF2227021A7003F746D /* demo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA9DFF0227021A7003F746D /* demo1.png */; };
+		2EE26F15C1CF5665545148D6 /* libPods-TCardView_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D73486ACADF7C5AB23BEF80 /* libPods-TCardView_Example.a */; };
+		4A2D3FF8D70D974CABF74876 /* libPods-TCardView_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B83322EE120FA306D9FD52 /* libPods-TCardView_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,7 +25,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		8733B4A495060FDB6E338869 /* Pods_TCardView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DA7580FECE70531706A25F /* Pods_TCardView_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4A8657501F113E9DFD861919 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		24B83322EE120FA306D9FD52 /* libPods-TCardView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TCardView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA9DFEF227021A7003F746D /* demo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo2.png; sourceTree = "<group>"; };
+		2BA9DFF0227021A7003F746D /* demo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo1.png; sourceTree = "<group>"; };
+		4A8657501F113E9DFD861919 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TCardView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCardView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,11 +65,10 @@
 		64FC9021E71F9A88B105E99D /* Pods-TCardView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCardView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TCardView_Tests/Pods-TCardView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6DAB94873B167C25AA7EA0A0 /* Pods-TCardView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCardView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TCardView_Example/Pods-TCardView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7DDAE12FE573B8520683B750 /* TCardView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TCardView.podspec; path = ../TCardView.podspec; sourceTree = "<group>"; };
-		80EA147430707CCE8E160B1F /* Pods_TCardView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCardView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DDAE12FE573B8520683B750 /* TCardView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TCardView.podspec; path = ../TCardView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		89BC9C9597587EB9E93C7EDA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A3DA7580FECE70531706A25F /* Pods_TCardView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCardView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89BC9C9597587EB9E93C7EDA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9D73486ACADF7C5AB23BEF80 /* libPods-TCardView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TCardView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC5F17F8240306C8C7B51AB4 /* Pods-TCardView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCardView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TCardView_Example/Pods-TCardView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DFF5A433812A4A805C019849 /* Pods-TCardView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCardView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TCardView_Tests/Pods-TCardView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +81,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				8733B4A495060FDB6E338869 /* Pods_TCardView_Example.framework in Frameworks */,
+				2EE26F15C1CF5665545148D6 /* libPods-TCardView_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +92,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				4639ED01DB420E9742925FAA /* Pods_TCardView_Tests.framework in Frameworks */,
+				4A2D3FF8D70D974CABF74876 /* libPods-TCardView_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +108,15 @@
 				DFF5A433812A4A805C019849 /* Pods-TCardView_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		2BA9DFEE22702191003F746D /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				2BA9DFF0227021A7003F746D /* demo1.png */,
+				2BA9DFEF227021A7003F746D /* demo2.png */,
+			);
+			name = resource;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -134,8 +147,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				A3DA7580FECE70531706A25F /* Pods_TCardView_Example.framework */,
-				80EA147430707CCE8E160B1F /* Pods_TCardView_Tests.framework */,
+				9D73486ACADF7C5AB23BEF80 /* libPods-TCardView_Example.a */,
+				24B83322EE120FA306D9FD52 /* libPods-TCardView_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -143,6 +156,7 @@
 		6003F593195388D20070C39A /* Example for TCardView */ = {
 			isa = PBXGroup;
 			children = (
+				2BA9DFEE22702191003F746D /* resource */,
 				6003F59C195388D20070C39A /* TAppDelegate.h */,
 				6003F59D195388D20070C39A /* TAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -207,7 +221,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				8B156882366CD67C3C90A998 /* [CP] Embed Pods Frameworks */,
+				E62A70252449D0A44A9AFCD9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -278,7 +292,9 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				2BA9DFF1227021A7003F746D /* demo2.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				2BA9DFF2227021A7003F746D /* demo1.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,24 +328,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8B156882366CD67C3C90A998 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TCardView_Example/Pods-TCardView_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TCardView/TCardView.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TCardView.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TCardView_Example/Pods-TCardView_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A347DD7ED2DF506527960646 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,6 +344,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E62A70252449D0A44A9AFCD9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TCardView_Example/Pods-TCardView_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TCardView/TCardView.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TCardView.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TCardView_Example/Pods-TCardView_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -488,6 +504,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TCardView/TCardView-Prefix.pch";
 				INFOPLIST_FILE = "TCardView/TCardView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,6 +520,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TCardView/TCardView-Prefix.pch";
 				INFOPLIST_FILE = "TCardView/TCardView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
